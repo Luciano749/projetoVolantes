@@ -1,0 +1,27 @@
+.navbar-glass {
+  background: rgba(255, 255, 255, 0.8); /* Fundo translúcido */
+  backdrop-filter: blur(10px); /* Efeito de desfoque */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+.nav-link {
+  color: #333 !important; /* Cor do texto */
+}
+.nav-link:hover {
+  color: #007bff !important; /* Cor ao passar o mouse */
+}
+.active {
+  background-color: #007bff !important; /* Fundo azul */
+  color: #fff !important; /* Texto branco */
+  border-radius: 5px; /* Bordas arredondadas */
+  padding: 5px 10px; /* Espaçamento interno */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-start; /* Alinha os itens à esquerda */
+}
+
+.nav-item {
+  white-space: nowrap; /* Impede que os itens quebrem para a linha seguinte */
+  margin-right: 15px; /* Espaçamento entre os itens, ajuste conforme necessário */
+}
