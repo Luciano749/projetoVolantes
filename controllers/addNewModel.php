@@ -1,13 +1,12 @@
 <?php
+session_start();
+
 if (!isset($_SESSION['logged']) || $_SESSION['logged'] != "admin") {
     include "./logout.php";
     exit();
 }
 
 include "../includes/database.php";
-
-// Inicia a sessão
-session_start();
 
 $modelName = $_POST['newModelName'];
 

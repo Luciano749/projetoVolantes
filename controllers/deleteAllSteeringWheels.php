@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 if (!isset($_SESSION['logged']) || $_SESSION['logged'] != "admin") {
     include "./logout.php";
     exit();
